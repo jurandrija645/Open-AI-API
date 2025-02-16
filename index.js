@@ -12,7 +12,7 @@ const messages = [
   },
   {
     role: "user",
-    content: "write a poem abou tv",
+    content: "write a poem about NBA",
   },
 ];
 
