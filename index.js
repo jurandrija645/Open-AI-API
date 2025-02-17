@@ -19,7 +19,7 @@ const messages = [
 const response = await openai.chat.completions.create({
   model: "gpt-4o-mini",
   store: true,
-  messages: [{ role: "user", content: "write a song about AIs" }],
+  messages: [{ role: "user", content: "write a song about AI" }],
 });
 
 console.log(response.choices[0].message.content);
