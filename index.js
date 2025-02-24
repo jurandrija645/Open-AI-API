@@ -12,7 +12,7 @@ const messages = [
   },
   {
     role: "user",
-    content: "write a poem about NBA",
+    content: "write a poem about luka doncic coming to the lakers",
   },
 ];
 
