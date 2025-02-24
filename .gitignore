@@ -3,11 +3,11 @@
 .env.local
 .env.*.local
 
-# Dependencies
-node_modules/
+# Other common files to ignore
+node_modules
+dist
 
 # Build files
-dist/
 build/
 
 # IDE/Editor specific

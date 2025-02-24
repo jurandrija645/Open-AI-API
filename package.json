@@ -3,12 +3,14 @@
   "description": "https://scrimba.com/the-ai-engineer-path-c02v/~09/s0jrrlgjqu/head",
   "scripts": {
     "start": "vite",
-    "dev": "vite",
+    "dev": "vite --port 3000",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "openai": "^4.78.1",
+    "openai": "^4.85.4",
+    "tailwind": "^4.0.0",
     "vite": "latest"
-  }
+  },
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
 }
