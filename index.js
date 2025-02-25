@@ -29,10 +29,8 @@ async function getPoem() {
       messages: messages,
     });
 
-    console.log(response.choices[0].message.content);
-    poem.textContent = response.choices[0].message.content;
-    console.log(response.usage);
     console.log(response);
+    poem.textContent = response.choices[0].message.content;
   } catch (error) {
     console.error("Error:", error);
   }
