@@ -27,6 +27,7 @@ async function getPoem() {
     const response = await openai.chat.completions.create({
       model: "gpt-4o",
       messages: messages,
+      max_tokens: 25,
     });
 
     console.log(response);
