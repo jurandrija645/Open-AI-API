@@ -15,7 +15,8 @@ async function getPoem() {
   const messages = [
     {
       role: "system",
-      content: "You are a poet. You also now everything about NBA.",
+      content:
+        "You are a poet. You also now everything about NBA and basketball.",
     },
     {
       role: "user",
