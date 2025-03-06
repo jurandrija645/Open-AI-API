@@ -20,7 +20,7 @@ async function getPoem() {
     },
     {
       role: "user",
-      content: "write a poem about luka doncic coming to the clippers",
+      content: "write a poem about luka doncic coming to the rockets",
     },
   ];
 
